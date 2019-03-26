@@ -1,0 +1,31 @@
+$module-name: body;
+
+#{$module-name} {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  @include breakpoint('phone') {
+    margin-bottom: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+.main {
+  min-height: 100%;
+  position: relative;
+}

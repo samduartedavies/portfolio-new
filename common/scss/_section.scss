@@ -1,0 +1,16 @@
+section {
+  min-height: 100vh;
+  &.banner {
+    background: $secondary;
+    width: 100%;
+    padding: 15vh 0;
+    position: relative;
+    &__container {
+      @include containerize;
+      text-align: center;
+    }
+    p {
+      font-size: 26px;
+    }
+  }
+}

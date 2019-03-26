@@ -1,0 +1,35 @@
+{
+  "name": "bellhouse_joseph",
+  "version": "1.0.0",
+  "description": "Website for bellhouse_joseph",
+  "main": "index.main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samduartedavies/bellhouse_joseph.git"
+  },
+  "author": "samduartedavies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samduartedavies/bellhouse_joseph.com/issues"
+  },
+  "homepage": "https://github.com/samduartedavies/bellhouse_joseph.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "node-sass": "^4.10.0",
+    "susy": "^2.2.12"
+  },
+  "dependencies": {
+    "gulp-scss": "^1.4.0",
+    "ios-inner-height": "^1.0.1",
+    "prettier": "^1.15.2"
+  }
+}

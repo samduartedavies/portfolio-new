@@ -1,0 +1,5 @@
+node_modules/
+.idea
+common/css/*.css
+common/js/*.js
+*.map
