@@ -1,7 +1,17 @@
 .header {
+  height: 100px;
   position: fixed;
+  display: flex;
+  align-items: center;
   top: 0;
   z-index: 10;
   width: 100%;
   background: $secondary;
+  border-bottom: 2px solid $secondary;
+  transition: all 0.5s ease-in-out;
+  &--shrink {
+    height: 60px;
+    background: $white;
+    border-bottom-color: $grey;
+  }
 }

@@ -1,6 +1,0 @@
-$module-name: container;
-
-.#{$module-name} {
-  @include containerize;
-  background: blue;
-}
