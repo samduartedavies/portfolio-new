@@ -1,0 +1,10 @@
+.img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  &--circle {
+    border-radius: 50%;
+    max-width: 300px;
+  }
+}

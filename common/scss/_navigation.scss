@@ -27,7 +27,7 @@
       position: relative;
       display: inline-block;
       font-size: 20px;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       @include breakpoint('phone') {
         width: 100%;
       }
@@ -144,6 +144,15 @@
         opacity: 0;
         transition: opacity 0.15s 0.05s ease;
       }
+    }
+  }
+  &__logo {
+    text-decoration: none;
+    color: $primary;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    span {
+      font-weight: bold;
     }
   }
 }
