@@ -6,10 +6,10 @@
       <h1>I'm Sam</h1>
       <p>a front-end developer.</p>
     </div>
-    <a class="section__next">GO DOWWWN</a>
+    <a class="section__next">&nbsp;</a>
   </section>
   <section class="section">
-
+    <a class="section__next">&nbsp;</a>
   </section>
 
 <?php getFooter(); ?>

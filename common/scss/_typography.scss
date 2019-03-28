@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'TheSansExtraLight';
-  src: url('../fonts/TheSansExtraLight.ttf') format('ttf');
+  src: url('../fonts/TheSansExtraLightPlain.ttf') format('ttf'),
+    url('../fonts/TheSansExtraLightPlain.otf') format('otf'),
+    url('../fonts/TheSansExtraLightPlain.woff') format('woff'),
+    url('../fonts/TheSansExtraLightPlain.woff2') format('woff2');
 }
 
 body {

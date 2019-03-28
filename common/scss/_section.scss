@@ -1,6 +1,7 @@
 .section {
   min-height: 100vh;
   text-align: center;
+  position: relative;
   &--banner {
     background: $secondary;
     width: 100%;
@@ -13,5 +14,14 @@
     p {
       font-size: 26px;
     }
+  }
+  &__next {
+    position: absolute;
+    cursor: pointer;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/icons/down.svg') center no-repeat;
+    background-size: contain;
   }
 }
