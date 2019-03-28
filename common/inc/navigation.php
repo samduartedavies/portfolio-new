@@ -12,6 +12,9 @@
       <li>
         <a href="/contact">Contact</a>
       </li>
+      <li>
+        <a target="_blank" href="/">My CV</a>
+      </li>
     </ul>
   </div>
 </nav>

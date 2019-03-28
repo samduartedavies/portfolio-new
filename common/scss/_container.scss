@@ -1,0 +1,17 @@
+.container {
+  @include containerize;
+  &--narrow {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  &--half-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    & > div {
+      width: 50%;
+      text-align: left;
+    }
+  }
+}

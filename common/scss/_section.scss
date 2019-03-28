@@ -5,6 +5,10 @@
     width: 100%;
     padding: 15vh 0;
     position: relative;
+    p {
+      font-family: TheSansExtraLight;
+      color: $primary;
+    }
     &__container {
       @include containerize;
       text-align: center;
@@ -16,12 +20,14 @@
   &--fullheight {
     min-height: 100vh;
     text-align: center;
+    padding: 40px 0;
   }
   &--centered {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   &__next {
     position: absolute;
