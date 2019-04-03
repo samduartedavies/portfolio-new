@@ -51,13 +51,17 @@
     color: $white;
     h2 {
       color: #f7da00;
+      a:hover {
+        color: $white;
+      }
     }
     p {
       color: $white;
     }
     .btn {
+      color: #f7da00;
       &:hover {
-        color: #f7da00;
+        color: $white;
       }
     }
   }
@@ -66,13 +70,40 @@
     color: $white;
     h2 {
       color: #00a5b4;
+      a:hover {
+        color: $white;
+      }
     }
     p {
       color: $white;
     }
     .btn {
+      color: #00a5b4;
       &:hover {
-        color: #00a5b4;
+        color: $white;
+      }
+    }
+  }
+  &--velusso {
+    background: #dddddd;
+    h2 {
+      color: $text;
+    }
+    .btn {
+      color: $text;
+    }
+  }
+  &--nproxx {
+    h2 {
+      color: #5fa767;
+      a:hover {
+        color: $text;
+      }
+    }
+    .btn {
+      color: #5fa767;
+      &:hover {
+        color: $text;
       }
     }
   }

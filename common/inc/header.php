@@ -49,8 +49,9 @@
     <meta name="theme-color" content="#000000">
 		<link rel="stylesheet" href="/common/css/main.min.css"/>
 
-		<script src="/common/js/vendor/jquery.min.js"></script>
-		<script src="/common/js/main.min.js"></script>
+    <script src="/common/js/vendor/jquery.min.js"></script>
+    <script src="/common/js/vendor/emergence.min.js"></script>
+    <script src="/common/js/main.min.js"></script>
 	</head>
 
 <body <?php echo $bodyClass; ?>>
