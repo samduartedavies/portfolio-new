@@ -7,11 +7,15 @@
   &--half-half {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     & > div {
       width: 50%;
       text-align: left;
+      @include breakpoint('tablet') {
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }

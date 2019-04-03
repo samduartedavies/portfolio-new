@@ -3,7 +3,7 @@
   &--banner {
     background: $secondary;
     width: 100%;
-    padding: 15vh 0;
+    padding: 15vh 0 0;
     position: relative;
     p {
       font-family: TheSansExtraLight;
@@ -29,6 +29,9 @@
     align-items: center;
     flex-direction: column;
   }
+  &--padded {
+    padding: 15vh 0;
+  }
   &__next {
     position: absolute;
     cursor: pointer;
@@ -37,5 +40,40 @@
     height: 30px;
     background: url('../images/icons/down.svg') center no-repeat;
     background-size: contain;
+  }
+  &--project {
+    p {
+      font-size: 16px;
+    }
+  }
+  &--alchemy {
+    background: #000000;
+    color: $white;
+    h2 {
+      color: #f7da00;
+    }
+    p {
+      color: $white;
+    }
+    .btn {
+      &:hover {
+        color: #f7da00;
+      }
+    }
+  }
+  &--allweather {
+    background: #1b3055;
+    color: $white;
+    h2 {
+      color: #00a5b4;
+    }
+    p {
+      color: $white;
+    }
+    .btn {
+      &:hover {
+        color: #00a5b4;
+      }
+    }
   }
 }

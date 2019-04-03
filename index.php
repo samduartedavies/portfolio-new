@@ -8,10 +8,10 @@
     </div>
     <a class="section__next">&nbsp;</a>
   </section>
-  <section class="section section--hifivee">
+  <!-- <section class="section section--hifivee">
     Hi Five for finding my website!
     <a class="section__next">&nbsp;</a>
-  </section>
+  </section> -->
   <section class="section section--fullheight section--centered">
     <div class="container container--narrow">
       <img class="img--circle" srcset="" 

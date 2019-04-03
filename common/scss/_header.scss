@@ -9,9 +9,20 @@
   background: $secondary;
   border-bottom: 2px solid $secondary;
   transition: all 0.5s ease-in-out;
+  @include breakpoint('phone') {
+    display: block;
+    height: auto;
+    padding: 30px 0;
+    min-height: 100px;
+  }
   &--shrink {
     height: 60px;
     background: $white;
     border-bottom-color: $grey;
+    @include breakpoint('phone') {
+      height: auto;
+      padding: 20px 0;
+      min-height: 60px;
+    }
   }
 }
