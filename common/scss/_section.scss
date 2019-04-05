@@ -108,3 +108,31 @@
     }
   }
 }
+
+.page-home {
+  .section--banner {
+    position: relative;
+    &:after,
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2;
+      background-image: url('../images/citylineTop.png');
+      background-position: 50% 100%;
+      background-size: 900px;
+      background-repeat: no-repeat;
+      @include breakpoint('phone') {
+        background-size: contain;
+      }
+    }
+    &:after {
+      background-image: url('../images/citylineBottom.png');
+      top: 100%;
+      background-position: 50% 0%;
+    }
+  }
+}

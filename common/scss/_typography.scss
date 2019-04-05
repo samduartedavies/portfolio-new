@@ -24,6 +24,9 @@ h1 {
   font-size: 160px;
   font-family: TheSansExtraLight;
   margin: 0;
+  @include breakpoint('tablet') {
+    font-size: 75px;
+  }
 }
 
 p {

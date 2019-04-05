@@ -1,0 +1,16 @@
+.scroll-banner {
+  position: relative;
+  z-index: 1;
+  &__sun {
+    content: '';
+    position: absolute;
+    left: calc(50% - 200px);
+    top: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(252, 255, 104);
+    z-index: -1;
+    filter: blur(3px);
+  }
+}

@@ -40,6 +40,31 @@
         transition: all 0.5s ease-in-out;
       }
     }
+    &-up {
+      &[data-emergence='hidden'] {
+        opacity: 0;
+        transform: translate3d(0, 2em, 0);
+      }
+      &[data-emergence='visible'] {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 0.5s ease-in-out;
+      }
+    }
+    @include breakpoint('phone') {
+      &-right,
+      &-left {
+        &[data-emergence='hidden'] {
+          opacity: 0;
+          transform: translate3d(0, 2em, 0);
+        }
+        &[data-emergence='visible'] {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
   }
   &--swipe {
     &-left {

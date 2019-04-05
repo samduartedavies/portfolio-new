@@ -1,6 +1,10 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/php/functions.php'; ?>
 
-<?php getHeader('Bellhouse Joseph - Lorem Ipsum', 'Lorm ipsum', 'page-home'); ?>
+<?php getHeader(
+    'Bellhouse Joseph - Lorem Ipsum',
+    'Lorm ipsum',
+    'page-projects'
+); ?>
   <section class="section section--banner section--centered">
     <div class="container">
       <h1>Projects</h1>
