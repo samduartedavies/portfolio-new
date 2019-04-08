@@ -7,7 +7,7 @@
       <h1>I'm Sam</h1>
       <p>a front-end developer.</p>
     </div>
-    <a class="section__next">&nbsp;</a>
+    <a class="section__next section__next--blue">&nbsp;</a>
   </section>
   <section class="section section--fullheight section--centered">
     <div class="container container--narrow animation--fadein-up" data-emergence="hidden">

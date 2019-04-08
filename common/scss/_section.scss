@@ -44,6 +44,10 @@
     margin: 0 auto;
     background: url('../images/icons/down.svg') center no-repeat;
     background-size: contain;
+    z-index: 2;
+    &--blue {
+      background-image: url('../images/icons/down--blue.svg');
+    }
   }
   &--hifive {
     background-color: $secondary;
@@ -139,7 +143,6 @@
     &:after {
       background-image: url('../images/citylineBottom.png');
       top: 100%;
-      z-index: 0;
       background-position: 50% 0%;
     }
   }

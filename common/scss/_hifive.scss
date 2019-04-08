@@ -10,7 +10,8 @@
   &__right {
     width: 49%;
     height: 100%;
-    max-height: 600px;
+    // max-height: 600px;
+    max-height: 70vh;
     position: relative;
     display: inline-block;
   }
@@ -26,7 +27,7 @@
     background-repeat: no-repeat;
   }
   &__left span {
-    // background-position: left center;
+    background-position: left center;
     background-image: url('../images/hand-left-far.svg');
   }
   &__right span {
@@ -48,9 +49,9 @@
     .hifive {
       &__left {
         animation: hifive-shake 0.5s;
-      }
-      &__popup {
-        animation: hifive-text 0.25s;
+        span {
+          background-position: center;
+        }
       }
     }
   }
