@@ -18,11 +18,14 @@
       <a class="section__next">&nbsp;</a>
     </div>
   </section>
-  <section class="section">
-    Hi Five for finding my website!
+  <section class="section section--hifive section--fullheight">
     <div class="hifive">
-      <div class="hifive__left">LEFT</div>
-      <div class="hifive__right">RIGHT</div>
+      <div class="container">
+        <h2>Hi-Five for finding my website!</h2>
+      </div>
+      <div class="hifive__left"><span></span></div>
+      <div class="hifive__right"><span></span></div>
+      <a class="section__next">&nbsp;</a>    
     </div>
   </section>
   <section class="section section--fullheight section--centered">

@@ -1,0 +1,57 @@
+.hifive {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .container {
+    position: relative;
+  }
+  &__left,
+  &__right {
+    width: 49%;
+    height: 100%;
+    max-height: 600px;
+    position: relative;
+    display: inline-block;
+  }
+  &__left span,
+  &__right span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &__left span {
+    // background-position: left center;
+    background-image: url('../images/hand-left-far.svg');
+  }
+  &__right span {
+    background-image: url('../images/hand-right-far.svg');
+    background-position: right center;
+  }
+  &__popup {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    max-width: 600px;
+    min-height: 300px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: calc(50% - 100px);
+  }
+  &--connected {
+    .hifive {
+      &__left {
+        animation: hifive-shake 0.5s;
+      }
+      &__popup {
+        animation: hifive-text 0.25s;
+      }
+    }
+  }
+}
