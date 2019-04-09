@@ -18,10 +18,14 @@
     }
   }
   &--fullheight {
-    min-height: 100vh;
-    height: 100vh;
+    min-height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
     text-align: center;
     padding: 40px 0;
+    &.section--banner {
+      min-height: 100vh;
+      height: 100vh;
+    }
   }
   &--centered {
     text-align: center;
@@ -123,6 +127,7 @@
 .page-home {
   .section--banner {
     position: relative;
+    z-index: -1;
     &:after,
     &:before {
       content: '';

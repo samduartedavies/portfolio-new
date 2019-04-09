@@ -36,14 +36,11 @@
   }
   &__popup {
     position: absolute;
-    width: 90%;
-    height: 90%;
-    max-width: 600px;
-    min-height: 300px;
+    width: 100%;
     margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: calc(50% - 100px);
+    text-align: center;
+    top: 1em;
+    display: none;
   }
   &--connected {
     .hifive {
@@ -52,6 +49,9 @@
         span {
           background-position: center;
         }
+      }
+      &__popup {
+        display: block;
       }
     }
   }
