@@ -4,10 +4,14 @@
   &__sun {
     content: '';
     position: absolute;
-    left: calc(50% - 200px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     top: 0;
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     background-color: rgb(252, 255, 104);
     z-index: -1;

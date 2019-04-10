@@ -1,0 +1,69 @@
+.project {
+  text-align: center;
+  &--project {
+    p {
+      font-size: 16px;
+    }
+  }
+  &--alchemy {
+    background: #353535;
+    color: $white;
+    h2 {
+      color: #f7da00;
+      a:hover {
+        color: $white;
+      }
+    }
+    p {
+      color: $white;
+    }
+    .btn {
+      color: #f7da00;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  &--allweather {
+    background: #1b3055;
+    color: $white;
+    h2 {
+      color: #00a5b4;
+      a:hover {
+        color: $white;
+      }
+    }
+    p {
+      color: $white;
+    }
+    .btn {
+      color: #00a5b4;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  &--velusso {
+    background: #dddddd;
+    h2 {
+      color: $text;
+    }
+    .btn {
+      color: $text;
+    }
+  }
+  &--nproxx {
+    h2 {
+      color: #5fa767;
+      a:hover {
+        color: $text;
+      }
+    }
+    .btn {
+      color: #5fa767;
+      &:hover {
+        color: $text;
+      }
+    }
+  }
+}

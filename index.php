@@ -21,7 +21,7 @@
   <section class="section section--hifive section--fullheight">
     <div class="hifive animate--fadein-up" data-emergence="hidden">
       <div class="container">
-        <h2>Hi-Five for finding my website!</h2>
+        <h2>High five for finding my website...</h2>
       </div>
       <div class="hifive__popup"><h2>I hope you like it!</h2></div>
       <div class="hifive__left"><span></span></div>
@@ -34,11 +34,11 @@
     <div class="container container--half-half">
       <div class="animate--fadein-left delay--05" data-emergence="hidden">
         Placeholder for image
-      </div>
+    </div>
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a class="btn" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download My CV</a>
+        <a class="btn btn--link" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download My CV</a>
       </div>
     </div>
     <a class="section__next">&nbsp;</a>

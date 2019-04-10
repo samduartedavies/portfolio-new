@@ -10,6 +10,25 @@
     url('../fonts/VarelaRound-Regular-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('../fonts/brandon-grotesque-medium.otf') format('otf'),
+    url('../fonts/brandon-grotesque-medium.woff') format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('../fonts/brandon-grotesque-thin.otf') format('otf'),
+    url('../fonts/brandon-grotesque-thin.woff') format('woff');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('../fonts/brandon-grotesque-bold.otf') format('otf'),
+    url('../fonts/brandon-grotesque-bold.woff') format('woff');
+  font-weight: bold;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: #4ab176;
@@ -17,12 +36,13 @@
 
 body {
   color: $primary;
-  font-family: TheSansExtraLight;
+  font-family: BrandonGrotesque;
+  font-weight: normal;
 }
 
 h1 {
   font-size: 160px;
-  font-family: TheSansExtraLight;
+  font-family: BrandonGrotesque;
   margin: 0;
   @include breakpoint('tablet') {
     font-size: 75px;
@@ -31,8 +51,7 @@ h1 {
 
 p {
   color: $text;
-  font-family: Helvetica, arial, sans-serif;
-  font-weight: 100;
+  font-family: BrandonGrotesque, arial, sans-serif;
   font-size: 19px;
   line-height: 1.35em;
 }

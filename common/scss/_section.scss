@@ -16,15 +16,35 @@
     p {
       font-size: 26px;
     }
+    .container {
+      position: relative;
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        right: 0;
+        background: url('../images/cloud.svg') center no-repeat;
+        background-size: contain;
+        top: 0;
+        animation: cloud1 30s ease-in-out infinite;
+        z-index: 0;
+      }
+      &:after {
+        left: 0;
+        top: 60%;
+        width: 150px;
+        animation: cloud2 50s ease-in-out infinite;
+      }
+    }
   }
   &--fullheight {
     min-height: calc(100vh - 60px);
-    height: calc(100vh - 60px);
     text-align: center;
     padding: 40px 0;
     &.section--banner {
       min-height: 100vh;
-      height: 100vh;
     }
   }
   &--centered {
@@ -55,100 +75,39 @@
   }
   &--hifive {
     background-color: $secondary;
-  }
-  &--project {
-    p {
-      font-size: 16px;
-    }
-  }
-  &--alchemy {
-    background: #000000;
-    color: $white;
-    h2 {
-      color: #f7da00;
-      a:hover {
-        color: $white;
-      }
-    }
-    p {
-      color: $white;
-    }
-    .btn {
-      color: #f7da00;
-      &:hover {
-        color: $white;
-      }
-    }
-  }
-  &--allweather {
-    background: #1b3055;
-    color: $white;
-    h2 {
-      color: #00a5b4;
-      a:hover {
-        color: $white;
-      }
-    }
-    p {
-      color: $white;
-    }
-    .btn {
-      color: #00a5b4;
-      &:hover {
-        color: $white;
-      }
-    }
-  }
-  &--velusso {
-    background: #dddddd;
-    h2 {
-      color: $text;
-    }
-    .btn {
-      color: $text;
-    }
-  }
-  &--nproxx {
-    h2 {
-      color: #5fa767;
-      a:hover {
-        color: $text;
-      }
-    }
-    .btn {
-      color: #5fa767;
-      &:hover {
-        color: $text;
-      }
-    }
+    height: calc(100vh - 60px);
   }
 }
 
 .page-home {
   .section--banner {
     position: relative;
-    z-index: -1;
+    z-index: 0;
     &:after,
     &:before {
       content: '';
+      pointer-events: none;
       width: 100%;
       height: 100%;
+      max-height: 46vh;
       position: absolute;
       left: 0;
-      top: 0;
+      bottom: 0;
       z-index: 2;
       background-image: url('../images/citylineTop.png');
       background-position: 50% 100%;
-      background-size: 900px;
+      background-size: contain;
       background-repeat: no-repeat;
-      @include breakpoint('phone') {
-        background-size: contain;
-      }
     }
     &:after {
       background-image: url('../images/citylineBottom.png');
       top: 100%;
+      bottom: auto;
       background-position: 50% 0%;
+      background-size: 900px;
+      @include breakpoint('phone') {
+        background-size: contain;
+      }
     }
   }
 }
