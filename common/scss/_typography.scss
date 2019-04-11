@@ -50,7 +50,9 @@ h1 {
   }
 }
 
-p {
+p,
+input,
+textarea {
   color: $text;
   font-family: BrandonGrotesque, arial, sans-serif;
   font-size: 19px;

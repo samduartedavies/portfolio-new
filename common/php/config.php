@@ -1,8 +1,8 @@
 <?php
 session_start();
 //SEO
-define("SITE_NAME", "Hayward &amp; Green");
-define("SITE_COLOR", "#00408c");
+define("SITE_NAME", "Sam Duarte-Davies");
+define("SITE_COLOR", "#e0ebe8");
 
 //Debug Mode
 define("SITE_DEBUG", true);
@@ -14,7 +14,13 @@ define("SITE_DIRECTORY", '/');
 define("SITE_URL", getenv('SITE_URL'));
 
 //Site ROOT URL
-define("SITE_ROOT", "d:/REPOS/bellhouse_joseph/");
+define("SITE_ROOT", "d:/REPOS/portfolio-new/");
+
+//sendgrid api ref
+define(
+    "SENDGRID_API_KEY",
+    "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"
+);
 
 //DO NOT EDIT
 include SITE_ROOT . 'common/php/functions.php';

@@ -1,33 +1,24 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/php/functions.php'; ?>
 
-<?php getHeader('Bellhouse Joseph - Lorem Ipsum', 'Lorm ipsum', 'page-home'); ?>
+<?php getHeader('Bellhouse Joseph - Lorem Ipsum', 'Lorm ipsum', ''); ?>
 
-<?php
-echo $_POST['submit'];
-$action = $_REQUEST['action'];
-if ($action == "") { ?>
-  <form action="" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="action" value="submit">
-      Your name:<br>
-    <input name="name" type="text" value="" size="30"/><br>
-      Your email:<br>
-    <input name="email" type="text" value="" size="30"/><br>
-      Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
-    <input type="submit" value="Send email"/>
-  </form>
-  <?php } else {$name = $_REQUEST['name'];
-    $email = $_REQUEST['email'];
-    $message = $_REQUEST['message'];
-    if ($name == "" || $email == "" || $message == "") {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-    } else {
-        $from = "From: $name<$email>\r\nReturn-path: $email";
-        $subject = "Message sent using your contact form";
-        mail("samduarte-davies@hotmail.com", $subject, $message, $from);
-        echo "Email sent!";
-    }}
-?>
+<section class="section section--banner">
+  <div class="container">
+    <h1>Contact</h1>
+  </div>
+</section>
+<section class="section section--centered">
+  <div class="container container--narrow">
+    <p>I am currently available for freelance work - so if you have a project you would like to get in contact with me about or simply just want to say hello; use the contact form below or email me at: <a href="mailto:samduarte-davies@hotmail.com?subject=Website Portfolio Enquiry" target="_blank">samduarte-davies@hotmail.com</a>.</p>
+    <form action="" enctype="multipart/form-data" class="form form-ajax-send">
+      <input type="hidden" name="action" value="submit">
+      <input name="name" type="text" placeholder="Name" required size="30"/><br>
+      <input name="email" type="text" placeholder="Email" required size="30"/><br>
+      <textarea name="message" placeholder="How can I help you?" columns="7" required></textarea><br>
+      <input type="submit" value="Send" class="btn"/>
+    </form>
+  </div>
+</section>
 
 
 <?php getFooter(); ?>
