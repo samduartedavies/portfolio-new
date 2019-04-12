@@ -6,6 +6,8 @@
       <div class="scroll-banner__sun"></div>
       <h1 class="animate--fadein duration--slow" data-emergence="hidden">I'm Sam</h1>
       <p class="animate--fadein-up delay--05" data-emergence="hidden">a front-end developer.</p>
+      <!-- <a class="btn btn--solid">I need help on a project</a>
+      <a class="btn btn--solid">I'm hiring for remote work</a> -->
     </div>
     <a class="section__next section__next--blue">&nbsp;</a>
   </section>
@@ -38,7 +40,10 @@
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a class="btn btn--link" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download My CV</a>
+        <a class="btn btn--solid" href="/contact">Get in contact</a>
+        <a class="btn btn--solid" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download my CV</a>
+        <!-- <a class="btn btn--link" href="/contact" >I'm looking for help on a project</a>
+        <a class="btn btn--link" href="/contact" >I'm hiring for a remote role</a> -->
       </div>
     </div>
     <a class="section__next">&nbsp;</a>

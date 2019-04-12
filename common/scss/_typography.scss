@@ -55,9 +55,13 @@ input,
 textarea {
   color: $text;
   font-family: BrandonGrotesque, arial, sans-serif;
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.35em;
-  font-weight: normal;
+  font-weight: 100;
+  a {
+    color: $primary;
+    font-weight: bold;
+  }
 }
 
 h2 {
@@ -68,4 +72,8 @@ h2 {
     cursor: pointer;
     transition: color 0.2s ease;
   }
+}
+
+h3 {
+  font-size: 22px;
 }

@@ -3,6 +3,15 @@
   p {
     font-weight: 100;
   }
+  h3 {
+    font-weight: 100;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 0;
+  }
   &--project {
     p {
       font-size: 16px;
@@ -11,7 +20,8 @@
   &--alchemy {
     background: #353535;
     color: $white;
-    h2 {
+    h2,
+    h3 {
       color: #f7da00;
       a:hover {
         color: $white;
@@ -21,7 +31,8 @@
       color: $white;
     }
     .btn {
-      color: #f7da00;
+      background-color: #f7da00;
+      color: $text;
       &:hover {
         color: $white;
       }
@@ -30,7 +41,8 @@
   &--allweather {
     background: #1b3055;
     color: $white;
-    h2 {
+    h2,
+    h3 {
       color: #00a5b4;
       a:hover {
         color: $white;
@@ -40,33 +52,37 @@
       color: $white;
     }
     .btn {
-      color: #00a5b4;
-      &:hover {
-        color: $white;
-      }
+      background-color: #00a5b4;
     }
   }
   &--velusso {
     background: #dddddd;
-    h2 {
+    h2,
+    h3 {
       color: $text;
     }
     .btn {
-      color: $text;
+      background-color: $text;
+      color: $white;
     }
   }
   &--nproxx {
-    h2 {
+    h2,
+    h3 {
       color: #5fa767;
       a:hover {
         color: $text;
       }
     }
     .btn {
-      color: #5fa767;
-      &:hover {
-        color: $text;
-      }
+      background-color: #5fa767;
+    }
+  }
+  .btn--solid {
+    margin-top: 1em;
+    &:hover {
+      background-color: $primary;
+      color: $white;
     }
   }
 }

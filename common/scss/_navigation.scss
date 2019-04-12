@@ -28,7 +28,7 @@
     li {
       position: relative;
       display: inline-block;
-      font-size: 20px;
+      font-size: 21px;
       letter-spacing: 0.75px;
       @include breakpoint('phone') {
         width: 100%;
@@ -156,7 +156,7 @@
   &__logo {
     text-decoration: none;
     color: $primary;
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 0.75px;
     font-weight: 100;
     span {
