@@ -16,7 +16,8 @@
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
       <h3 class="animate--fadein-up delay--025" data-emergence="hidden">Hi</h3>
-      <p class="animate--fadein-up delay--05" data-emergence="hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="animate--fadein-up delay--05" data-emergence="hidden">Having worked as a Developer and Commercial Assistant for the past two years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry to allow myself to effectively manage and develop an assortment of web based applications.</p>
+      <p class="animate--fadein-up delay--075" data-emergence="hidden">My experience has given me the confidence to progress into a career of freelancing, offering my services as a front-end developer with the ability to self manage and even manage small teams.</p>
     </div>
     <a class="section__next">&nbsp;</a>
   </section>

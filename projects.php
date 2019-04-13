@@ -23,7 +23,7 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
         <h3>Developer (freelance)</h3>
-        <p>Alchemy RX was a one-page static site that I implemented as a remote freelancer. The project was a great success - with praise from both the agency that managed the project as well as the client. Praise included mentions of my ongoing hasty communications along with the end result going above and beyond the expected outcome.</p>
+        <p>Alchemy RX was a one-page static site that I implemented as a remote freelancer. The project was a great success - with praise from both the agency that provided the project as well as the client. Praise included mentions of the final product going above and beyond the expected outcome accompanied by my ongoing hasty communications and detailed time logs of development.</p>
         <a class="btn btn--solid" href="https://www.alchemy-rx.com/" target="_blank">Visit Alchemy RX</a>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.velusso.co.uk/" target="_blank">Velusso</a></h2>
         <h3>Project Manager / Developer</h3>
-        <p>Velusso is a cycling tour/holiday eCommerce platform for users to browse and book Velusso's collection of trips. I both managed and developed the project: conducted the initial client proposal documentation and meetings, oversaw and guided the designs, implemented the development of 'Phase 1', to finally creating a proposal and detailed plan of 'Phase 2 Development' which had been negotiated between myself and the client. </p>
+        <p>Velusso is a cycling tour/holiday eCommerce platform for users to browse and book Velusso's collection of trips. My invlovement in the project was as follows: conducted the initial client proposal documentation and meetings, oversaw and guided the designs, implemented the development of 'Phase 1', ending with creating a proposal and detailed plan of 'Phase 2 Development' which had been negotiated between myself and the client. </p>
         <a class="btn btn--solid" href="https://www.velusso.co.uk/" target="_blank">Visit Velusso</a>
       </div>
     </div>
