@@ -46,7 +46,6 @@
         <a class="btn btn--link" href="/contact" >I'm hiring for a remote role</a> -->
       </div>
     </div>
-    <a class="section__next">&nbsp;</a>
   </section>
 
 <?php getFooter(); ?>

@@ -8,15 +8,15 @@ $formData = json_decode($_POST['data']);
 
 mail_hash(
     'samduarte-davies@hotmail.com',
-    'sam@nlsltd.com',
+    'samduarte-davies@hotmail.com',
     'Portfolio Enquiry',
     $formData
 );
 
 function mail_hash($from, $to, $subject, $formData)
 {
-    $sendgrid_api_key = getenv('SENDGRID_API_KEY');
-    // "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";
+    $sendgrid_api_key =
+        "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";
     $sg = new \SendGrid($sendgrid_api_key);
     $message = "";
     foreach ($formData as $k => $v) {
@@ -34,6 +34,11 @@ function mail_hash($from, $to, $subject, $formData)
         ->post($mail);
 
     if ($result->statusCode() >= 400) {
+        $response = array(
+            'status' => 'error',
+            'message' => 'Message Failed - ' . $result->statusCode()
+        );
+    } elseif ($result->statusCode() >= 401) {
         $response = array(
             'status' => 'error',
             'message' => 'Message Failed - ' . $result->statusCode()

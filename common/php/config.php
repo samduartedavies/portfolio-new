@@ -17,9 +17,9 @@ define("SITE_URL", getenv('SITE_URL'));
 define("SITE_ROOT", "d:/REPOS/portfolio-new/");
 
 //sendgrid api ref
-define(
-    "SENDGRID_API_KEY",
-    "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"
+putenv(
+    "SENDGRID_API_KEY=
+    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"
 );
 
 //DO NOT EDIT

@@ -43,8 +43,12 @@
   }
   &--fullheight {
     min-height: calc(100vh - 60px);
+    height: 100vh;
     text-align: center;
     padding: 40px 0;
+    @include breakpoint('phone') {
+      height: auto;
+    }
     &.section--banner {
       min-height: 100vh;
     }

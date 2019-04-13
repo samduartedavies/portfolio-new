@@ -7,13 +7,22 @@ form {
     border-radius: 5px;
     width: 100%;
     background-color: $secondary;
-    border: 1px solid $secondary;
+    border: 2px solid $secondary;
     padding: 1em 1.5em;
     margin-bottom: 0.5em;
     resize: none;
-    &:hover {
-      border-color: $primary;
-      transition: border-color 0.25s ease;
-    }
+  }
+  .input-error {
+    border-color: $primary;
+  }
+}
+
+.form {
+  &-ajax-submitting {
+    pointer-events: none;
+    opacity: 0.3;
+  }
+  &-notifications {
+    margin-bottom: 1em;
   }
 }

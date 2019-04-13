@@ -61,6 +61,10 @@ textarea {
   a {
     color: $primary;
     font-weight: bold;
+    &:hover {
+      color: $text;
+      transition: color 0.25s ease;
+    }
   }
 }
 
