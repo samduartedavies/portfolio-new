@@ -3,3 +3,4 @@ node_modules/
 common/css/*.css
 common/js/*.js
 *.map
+common/php/config.php
