@@ -1,26 +1,35 @@
 <?php
 
 namespace SendGrid;
-require_once 'config.php';
-require_once SITE_ROOT . 'common/php/vendor/sendgrid-php/sendgrid-php.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/common/php/config.php';
+require_once $_SERVER['DOCUMENT_ROOT'] .
+    '/common/php/vendor/sendgrid-php/sendgrid-php.php';
 
-$formData = json_decode($_POST['data']);
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$formData = compact("name", "email", "message");
+
+$sendgrid_api_key = SENDGRID_API_KEY;
 
 mail_hash(
     'samduarte-davies@hotmail.com',
-    'samduarte-davies@hotmail.com',
+    'samduarte-davies@protonmail.com',
     'Portfolio Enquiry',
-    $formData
+    $formData,
+    $sendgrid_api_key
 );
 
-function mail_hash($from, $to, $subject, $formData)
+function mail_hash($from, $to, $subject, $formData, $key)
 {
-    $sendgrid_api_key = getenv('SENDGRID_API_KEY');
-    $sg = new \SendGrid($sendgrid_api_key);
-    $message = "";
-    foreach ($formData as $k => $v) {
-        $message .= "<strong>" . $k . "</strong>:<br> " . $v . "<br/>";
-    }
+    $sg = new \SendGrid($key);
+    $message =
+        "<strong>" .
+        $formData['name'] .
+        "</strong><br/>" .
+        $formData['email'] .
+        "<br/><br/>" .
+        $formData['message'];
 
     $content = new \SendGrid\Content("text/html", $message);
 

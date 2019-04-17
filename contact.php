@@ -1,11 +1,10 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/common/php/functions.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/common/php/config.php'; ?>
 
 <?php getHeader('Bellhouse Joseph - Lorem Ipsum', 'Lorm ipsum', ''); ?>
 
 <section class="section section--banner">
   <div class="container">
     <h1>Contact</h1>
-    <p><?php echo getenv('SENDGRID_API_KEY'); ?></p>
   </div>
 </section>
 <section class="section section--centered">
