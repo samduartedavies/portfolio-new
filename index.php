@@ -24,9 +24,9 @@
   <section class="section section--hifive section--fullheight">
     <div class="hifive animate--fadein-up" data-emergence="hidden">
       <div class="container">
-        <h2>High five for finding my website...</h2>
+        <h3>High five for finding my website...</h3>
       </div>
-      <div class="hifive__popup"><h2>I hope you like it!</h2></div>
+      <div class="hifive__popup"><p>I hope you like it!</p></div>
       <div class="hifive__left"><span></span></div>
       <div class="hifive__right"><span></span></div>
     </div>
@@ -37,15 +37,21 @@
     <div class="container container--half-half">
       <div class="animate--fadein-left delay--05" data-emergence="hidden">
         Placeholder for image
-    </div>
+      </div>
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
-        <p>I take designs or ideas and produce pixel-perfect web applications, full of animations and life that most other developers don't seem to be offering. All applications that I work on undergo my own strict testing standards - ensuring that they are fully responsive and enhanced to work accross all devices and browsers.
-        <p>My skillset primarily focuses on front-end web development; HTML5, PHP, CSS3/SCSS, Javascript (including javascript frameworks such as React) but also expands to the use of MySQL and server management.</p>
-        <p></p>
+        <h3>Turn ideas into reality.</h3>
+        <p>I take designs or ideas and produce pixel-perfect web applications, full of animations and life that most other developers don't seem to be offering. All applications that I work on undergo my own strict testing standards - ensuring that they are fully responsive and enhanced to work accross all devices and browsers.</p>
         <a class="btn btn--solid" href="/contact">Get in contact</a>
+      </div>
+    </div>
+    <div class="container container--half-half">
+      <div class="animate--fadein-right delay--05" data-emergence="hidden">
+        <h3>Use the latest technologies.</h3>
+        <p>My skillset primarily focuses on front-end web development; HTML5, PHP, CSS3/SCSS, Javascript (including javascript frameworks such as React) but also expands to the use of MySQL and server management. I can also effectively use PHotoshop and Illustrator as you can see on this website.<br/></p>
         <a class="btn btn--solid" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download my CV</a>
-        <!-- <a class="btn btn--link" href="/contact" >I'm looking for help on a project</a>
-        <a class="btn btn--link" href="/contact" >I'm hiring for a remote role</a> -->
+      </div>
+      <div class="animate--fadein-left delay--05" data-emergence="hidden">
+        Placeholder for image
       </div>
     </div>
   </section>

@@ -8,6 +8,9 @@
   }
   h2 {
     margin-bottom: 0;
+    &:hover {
+      color: $primary;
+    }
   }
   h3 {
     margin-top: 0;
@@ -23,9 +26,6 @@
     h2,
     h3 {
       color: #f7da00;
-      a:hover {
-        color: $white;
-      }
     }
     p {
       color: $white;
@@ -33,9 +33,6 @@
     .btn {
       background-color: #f7da00;
       color: $text;
-      &:hover {
-        color: $white;
-      }
     }
   }
   &--allweather {
@@ -44,9 +41,6 @@
     h2,
     h3 {
       color: #00a5b4;
-      a:hover {
-        color: $white;
-      }
     }
     p {
       color: $white;
@@ -70,12 +64,37 @@
     h2,
     h3 {
       color: #5fa767;
-      a:hover {
-        color: $text;
-      }
     }
     .btn {
       background-color: #5fa767;
+    }
+  }
+  .btn--solid {
+    margin-top: 1em;
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+  &--hayward {
+    background: #00408c;
+    h2,
+    h3,
+    p {
+      color: $white;
+    }
+    .btn {
+      background-color: $white;
+      color: #00408c;
+    }
+  }
+  &--tss {
+    h2,
+    h3 {
+      color: #504b82;
+    }
+    .btn {
+      background-color: #504b82;
     }
   }
   .btn--solid {

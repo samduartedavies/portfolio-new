@@ -35,7 +35,7 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.velusso.co.uk/" target="_blank">Velusso</a></h2>
         <h3>Project Manager / Developer</h3>
-        <p>Velusso is a cycling tour/holiday eCommerce platform for users to browse and book Velusso's collection of trips. My invlovement in the project was as follows: conducted the initial client proposal documentation and meetings, oversaw and guided the designs, implemented the development of 'Phase 1', ending with creating a proposal and detailed plan of 'Phase 2 Development' which had been negotiated between myself and the client. </p>
+        <p>Velusso is a cycling tour/holiday eCommerce platform for users to browse and book Velusso's collection of trips. My involvement in the project was as follows: conducted the initial client proposal documentation and meetings, oversaw and guided the designs, implemented the development of 'Phase 1', ending with creating a proposal and detailed plan of 'Phase 2 Development' which had been negotiated between myself and the client. </p>
         <a class="btn btn--solid" href="https://www.velusso.co.uk/" target="_blank">Visit Velusso</a>
       </div>
     </div>
@@ -47,7 +47,7 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.theallweathergroup.co.uk/" target="_blank">The Allweather Group</a></h2>
         <h3>Developer</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Allweather is a Roofing specialist advertising their services and information. I developed the site using wordpress as the client wanted a Content Management System in place to be able to edit the content of the website themselves and due to its user-friendly management interface, wordpress was chosen.</p>
         <a class="btn btn--solid" href="https://www.theallweathergroup.co.uk/" target="_blank">Visit Allweather</a>
       </div>
     </div>
@@ -59,8 +59,32 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">NPROXX</a></h2>
         <h3>Developer</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>NPROXX was a new rendition of a previous site</p>
         <a class="btn btn--solid" href="https://www.nproxx.com/" target="_blank">Visit NPROXX</a>
+      </div>
+    </div>
+  </section>
+  <section class="project project--hayward section section--padded">
+    <div class="container container--narrow">
+      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <div class="animate--fadein-up delay--025" data-emergence="hidden">
+        <h2><a href="https://www.nproxx.com/" target="_blank">Hayward &amp; Green</a></h2>
+        <h3>Developer</h3>
+        <p>Hayward &amp; Green are a commercial aircraft parts supply company who needed their previous, out-dated site revamped to compete with their competitors. They needed a slick, mobile-responsive website that users could search through their extremely large aircraft parts inventory and enquire about any available parts.</p>
+        <a class="btn btn--solid" href="https://www.haywardandgreen.com/" target="_blank">Visit Hayward &amp; Green</a>
+      </div>
+    </div>
+  </section>
+  <section class="project project--tss section section--padded">
+    <div class="container container--narrow">
+      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <div class="animate--fadein-up delay--025" data-emergence="hidden">
+        <h2><a href="https://tssfacilities.co.uk/" target="_blank">Hayward &amp; Green</a></h2>
+        <h3>Developer / Copy Writer</h3>
+        <p>Hayward &amp; Green are a commercial aircraft parts supply company who needed their previous, out-dated site revamped to compete with their competitors. They needed a slick, mobile-responsive website that users could search through their extremely large aircraft parts inventory and enquire about any available parts.</p>
+        <a class="btn btn--solid" href="https://tssfacilities.co.uk/" target="_blank">Visit TSS Facilities</a>
       </div>
     </div>
   </section>
