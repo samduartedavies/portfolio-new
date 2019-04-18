@@ -16,7 +16,7 @@
       <a class="section__next">&nbsp;</a>    
     </div>
   </section>
-  <section class="project project--alchemy section section--padded">
+  <section class="project project--alchemy section">
     <div class="container  container--narrow">
       <img class="img--circle animadte--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
@@ -28,7 +28,7 @@
       </div>
     </div>
   </section>
-  <section class="project project--velusso section section--padded">
+  <section class="project project--velusso section">
     <div class="container  container--narrow animate--fadein-up" data-emergence="hidden">
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
@@ -40,7 +40,7 @@
       </div>
     </div>
   </section>
-  <section class="project project--allweather section section--padded">
+  <section class="project project--allweather section">
     <div class="container  container--narrow">
       <img class="img--circle animate--fadein" data-emergence="hidden"" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
@@ -52,7 +52,7 @@
       </div>
     </div>
   </section>
-  <section class="project project--nproxx section section--padded">
+  <section class="project project--nproxx section">
     <div class="container  container--narrow">
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
@@ -64,7 +64,7 @@
       </div>
     </div>
   </section>
-  <section class="project project--hayward section section--padded">
+  <section class="project project--hayward section">
     <div class="container container--narrow">
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
@@ -76,7 +76,7 @@
       </div>
     </div>
   </section>
-  <section class="project project--tss section section--padded">
+  <section class="project project--tss section">
     <div class="container container--narrow">
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
@@ -84,7 +84,7 @@
         <h2><a href="https://tssfacilities.co.uk/" target="_blank">TSS Faciities</a></h2>
         <h3>Developer / Copy Writer</h3>
         <p>My role in the development of this site included the opportunity to exercise my copy writing skills. News stories and case studies were the majority of my copy writing responsibilities but this also stretched to main page texts. The development of this site was a purely static PHP site with Javascript/Jquery functionality.</p>
-        <a class="btn btn--solid" href="https://tssfacilities.co.uk/" target="_blank">Visit TSS</a>
+        <a class="btn btn--solid" href="https://tssfacilities.co.uk/" target="_blank">Visit TSS Facilities</a>
       </div>
     </div>
   </section>

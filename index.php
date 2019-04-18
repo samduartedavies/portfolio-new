@@ -26,7 +26,7 @@
       <div class="container">
         <h3>High five for finding my website...</h3>
       </div>
-      <div class="hifive__popup"><p>I hope you like it!</p></div>
+      <div class="hifive__popup"><p>Let's work together to establish new ones!</p></div>
       <div class="hifive__left"><span></span></div>
       <div class="hifive__right"><span></span></div>
     </div>
@@ -47,7 +47,7 @@
     <div class="container container--half-half">
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
         <h3>Use the latest technologies.</h3>
-        <p>My skillset primarily focuses on front-end web development; HTML5, PHP, CSS3/SCSS, Javascript (including javascript frameworks such as React) but also expands to the use of MySQL and server management. I can also effectively use PHotoshop and Illustrator as you can see on this website.<br/></p>
+        <p>My skillset primarily focuses on front-end web development; HTML5, PHP, CSS3/SCSS, Javascript (including javascript frameworks such as React) but also expands to the use of MySQL and server management. I am also proficient with Adobe Photoshop and Illustrator.<br/></p>
         <a class="btn btn--solid" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download my CV</a>
       </div>
       <div class="animate--fadein-left delay--05" data-emergence="hidden">
