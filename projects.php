@@ -18,7 +18,7 @@
   </section>
   <section class="project project--alchemy section section--padded">
     <div class="container  container--narrow">
-      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
+      <img class="img--circle animadte--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
@@ -59,7 +59,7 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">NPROXX</a></h2>
         <h3>Developer</h3>
-        <p>NPROXX was a new rendition of a previous site</p>
+        <p>NPROXX is a German hydrogen storage company with multi-national clients; therefore, their website needed to be accessible to all their potential clients. A multi-lingual website was developed with every page having numerous versions of itself corresponding to the relevant language domain. SEO also needed to be refined to correctly display each language on relevant search criteria.</p>
         <a class="btn btn--solid" href="https://www.nproxx.com/" target="_blank">Visit NPROXX</a>
       </div>
     </div>
@@ -81,10 +81,10 @@
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
-        <h2><a href="https://tssfacilities.co.uk/" target="_blank">Hayward &amp; Green</a></h2>
+        <h2><a href="https://tssfacilities.co.uk/" target="_blank">TSS Faciities</a></h2>
         <h3>Developer / Copy Writer</h3>
-        <p>Hayward &amp; Green are a commercial aircraft parts supply company who needed their previous, out-dated site revamped to compete with their competitors. They needed a slick, mobile-responsive website that users could search through their extremely large aircraft parts inventory and enquire about any available parts.</p>
-        <a class="btn btn--solid" href="https://tssfacilities.co.uk/" target="_blank">Visit TSS Facilities</a>
+        <p>My role in the development of this site included the opportunity to exercise my copy writing skills. News stories and case studies were the majority of my copy writing responsibilities but this also stretched to main page texts. The development of this site was a purely static PHP site with Javascript/Jquery functionality.</p>
+        <a class="btn btn--solid" href="https://tssfacilities.co.uk/" target="_blank">Visit TSS</a>
       </div>
     </div>
   </section>
