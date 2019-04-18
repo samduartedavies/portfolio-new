@@ -12,14 +12,14 @@
   </section>
   <section class="section section--centered section--padded">
     <div class="container container--narrow">
-      <p class="animate--fadein-up" data-emergence="hidden">Here you can take a look at some of the web development projects that I have worked on, go ahead - take a peek!</p>
+      <p class="animate--fadein-up" data-emergence="hidden">Here you can take a look at some of the web development projects that I have worked on, with my role varying from project to project - including development, project management and copy-writing. Go ahead - take a peek!</p>
       <a class="section__next">&nbsp;</a>    
     </div>
   </section>
   <section class="project project--alchemy section">
     <div class="container  container--narrow">
-      <img class="img--circle animadte--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <img class="img animadte--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/projects/alchemy.png" alt="Alchemy RX Preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
         <h3>Developer (freelance)</h3>
@@ -30,8 +30,8 @@
   </section>
   <section class="project project--velusso section">
     <div class="container  container--narrow animate--fadein-up" data-emergence="hidden">
-      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/projects/velusso.png" alt="Velusso Preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.velusso.co.uk/" target="_blank">Velusso</a></h2>
         <h3>Project Manager / Developer</h3>
@@ -42,8 +42,8 @@
   </section>
   <section class="project project--allweather section">
     <div class="container  container--narrow">
-      <img class="img--circle animate--fadein" data-emergence="hidden"" srcset="" 
-      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <img class="img animate--fadein" data-emergence="hidden"" srcset="" 
+      src="/common/images/projects/.png" alt="" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.theallweathergroup.co.uk/" target="_blank">The Allweather Group</a></h2>
         <h3>Developer</h3>
@@ -54,8 +54,8 @@
   </section>
   <section class="project project--nproxx section">
     <div class="container  container--narrow">
-      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/projects/.png" alt="" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">NPROXX</a></h2>
         <h3>Developer</h3>
@@ -66,8 +66,8 @@
   </section>
   <section class="project project--hayward section">
     <div class="container container--narrow">
-      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/projects/.png" alt="" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">Hayward &amp; Green</a></h2>
         <h3>Developer</h3>
@@ -78,8 +78,8 @@
   </section>
   <section class="project project--tss section">
     <div class="container container--narrow">
-      <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
+      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/projects/.png" alt="" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://tssfacilities.co.uk/" target="_blank">TSS Faciities</a></h2>
         <h3>Developer / Copy Writer</h3>
