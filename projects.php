@@ -67,7 +67,7 @@
   <section class="project project--hayward section">
     <div class="container container--narrow">
       <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/.png" alt="" />
+      src="/common/images/projects/hag.png" alt="Hayward and Green preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">Hayward &amp; Green</a></h2>
         <h3>Developer</h3>
@@ -79,7 +79,7 @@
   <section class="project project--tss section">
     <div class="container container--narrow">
       <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/.png" alt="" />
+      src="/common/images/projects/tss.png" alt="TSS Facilities preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://tssfacilities.co.uk/" target="_blank">TSS Faciities</a></h2>
         <h3>Developer / Copy Writer</h3>
