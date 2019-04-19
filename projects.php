@@ -18,11 +18,13 @@
   </section>
   <section class="project project--alchemy section">
     <div class="container  container--narrow">
-      <img class="img animadte--fadein" data-emergence="hidden" srcset="" 
+      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/projects/alchemy.png" alt="Alchemy RX Preview" />
-      <div class="animate--fadein-up delay--025" data-emergence="hidden">
-        <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
-        <h3>Developer (freelance)</h3>
+      <div class="animate--swipe-down delay--025" data-emergence="hidden">
+        <div>
+          <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
+          <h3>Developer (freelance)</h3>
+        </div>
         <p>Alchemy RX was a one-page static site that I implemented as a remote freelancer. The project was a great success - with praise from both the agency that provided the project as well as the client. Praise included mentions of the final product going above and beyond the expected outcome accompanied by my ongoing hasty communications and detailed time logs of development.</p>
         <a class="btn btn--solid" href="https://www.alchemy-rx.com/" target="_blank">Visit Alchemy RX</a>
       </div>
