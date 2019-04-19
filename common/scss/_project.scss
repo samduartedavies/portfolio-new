@@ -7,8 +7,7 @@
     font-weight: 100;
   }
   h2 {
-    margin: 0.5em auto 0;
-    padding-top: 0.25em;
+    margin: 0 auto;
     &:hover {
       color: $primary;
     }
@@ -35,9 +34,6 @@
       background-color: #f7da00;
       color: $text;
     }
-    .container div:before {
-      background-color: #f7da00;
-    }
   }
   &--allweather {
     background: #1b3055;
@@ -52,9 +48,6 @@
     .btn {
       background-color: #00a5b4;
     }
-    .container div:before {
-      background-color: #00a5b4;
-    }
   }
   &--velusso {
     background: #dddddd;
@@ -65,9 +58,6 @@
     .btn {
       background-color: $text;
       color: $white;
-    }
-    .container div:before {
-      background-color: $text;
     }
   }
   &--nproxx {
