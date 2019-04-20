@@ -131,7 +131,7 @@
       height: 940px;
       bottom: -470px;
       z-index: 1;
-      background-image: url('../images/cityline.png');
+      background-image: url('../images/cityline.svg');
       background-position: 50%;
       background-size: contain;
       background-repeat: no-repeat;
@@ -139,13 +139,11 @@
         width: 600px;
         height: 470px;
         bottom: -235px;
-        background-image: url('../images/cityline@0,5x.png');
       }
       @include breakpoint('phone') {
-        width: 396px;
+        width: 355px;
         height: 310px;
-        bottom: -160px;
-        background-image: url('../images/cityline@0,33x.png');
+        bottom: -155px;
       }
     }
     &:after {
