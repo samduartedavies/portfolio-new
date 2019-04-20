@@ -19,10 +19,10 @@
   <section class="project project--alchemy section">
     <div class="container  container--narrow">
       <img class="img animate--fadein" data-emergence="hidden"
-      srcset="/common/images/projects/alchemy@0,25x.png 300w, 
+      srcset="/common/images/projects/alchemy@0,33x.png 400w, 
       /common/images/projects/alchemy@0,5x.png 600w, 
       /common/images/projects/alchemy.png 1200w"
-      sizes="(max-width: 1920px) 600px, (max-width: 768px) 300px, 3000px"
+      sizes="(max-width: 768px) 320px, (max-width: 1920px) 600px, 1200px"
       src="/common/images/projects/alchemy.png" alt="Alchemy RX Preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
