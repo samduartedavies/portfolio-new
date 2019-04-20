@@ -10,9 +10,8 @@
   }
   &__left,
   &__right {
-    width: 49%;
+    width: 50%;
     height: 100%;
-    // max-height: 600px;
     max-height: 50vh;
     position: relative;
     display: inline-block;
@@ -25,8 +24,11 @@
     left: 0;
     top: 0;
     background-position: center;
-    background-size: contain;
+    background-size: 25vw;
     background-repeat: no-repeat;
+    @include breakpoint('phone') {
+      background-size: 30vw;
+    }
   }
   &__left span {
     background-position: left center;
