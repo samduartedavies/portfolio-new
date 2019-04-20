@@ -25,8 +25,8 @@
     <div class="hifive animate--fadein-up" data-emergence="hidden">
       <div class="container">
         <h3>High five for finding my website...</h3>
+        <p class="hifive__popup">Let's work together to establish new ones!</p>
       </div>
-      <div class="hifive__popup"><p>Let's work together to establish new ones!</p></div>
       <div class="hifive__left"><span></span></div>
       <div class="hifive__right"><span></span></div>
     </div>
