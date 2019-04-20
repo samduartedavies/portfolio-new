@@ -10,9 +10,13 @@ $font-size: 16;
       @content;
     }
   } @else if $class == desktop {
-    @media (max-width: 1366px) {
+    @media (max-width: 1920px) {
       @content;
-    } 
+    }
+  } @else if $class == 4k {
+    @media (min-width: 1921px) {
+      @content;
+    }
   }
 }
 
@@ -35,5 +39,5 @@ $font-size: 16;
 
 @mixin fontSize($size: 16) {
   font-size: #{$size}px;
-  font-size: rem($size); 
+  font-size: rem($size);
 }
