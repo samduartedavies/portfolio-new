@@ -19,8 +19,8 @@
   <section class="project project--alchemy section">
     <div class="container  container--narrow">
       <img class="img animate--fadein" data-emergence="hidden"
-      srcset="/common/images/projects/alchemy@0,25.png 300w, 
-      /common/images/projects/alchemy@0,5.png 600w, 
+      srcset="/common/images/projects/alchemy@0,25x.png 300w, 
+      /common/images/projects/alchemy@0,5x.png 600w, 
       /common/images/projects/alchemy.png 1200w"
       sizes="(max-width: 1920px) 600px, (max-width: 768px) 300px, 3000px"
       src="/common/images/projects/alchemy.png" alt="Alchemy RX Preview" />
