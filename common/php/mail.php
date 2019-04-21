@@ -13,8 +13,8 @@ $formData = compact("name", "email", "message");
 $sendgrid_api_key = SENDGRID_API_KEY;
 
 mail_hash(
-    'samduarte-davies@hotmail.com',
-    'samduarte-davies@protonmail.com',
+    'contact@samduartedavies.com',
+    'contact@samduartedavies.com',
     'Portfolio Enquiry',
     $formData,
     $sendgrid_api_key

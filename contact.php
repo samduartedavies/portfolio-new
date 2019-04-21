@@ -9,7 +9,7 @@
 </section>
 <section class="section section--centered">
   <div class="container container--narrow animate--fadein-up" data-emergence="hidden">
-    <p><br/>I am currently available for freelance work! If you have a project you would like to get in contact with me about or simply just want to say hello - use the contact form below or email me at:<br/> <a href="mailto:samduarte-davies@hotmail.com?subject=Website Portfolio Enquiry">samduarte-davies@hotmail.com</a>.</p>
+    <p><br/>I am currently available for freelance work! If you have a project you would like to get in contact with me about or simply just want to say hello - use the contact form below or email me at:<br/> <a href="mailto:contact@samduartedavies.com?subject=Website Portfolio Enquiry">contact@samduartedavies.com</a>.</p>
   </div>
 </section>
 <section class="section section--centered">
