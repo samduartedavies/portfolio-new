@@ -5,7 +5,7 @@
     <div class="container scroll-banner">
       <div class="scroll-banner__sun"></div>
       <h1 class="animate--fadein duration--slow" data-emergence="hidden">I'm Sam</h1>
-      <p class="animate--fadein-up delay--05" data-emergence="hidden">a front-end developer.</p>
+      <h3 class="animate--fadein-up delay--05" data-emergence="hidden">a front-end developer.</h3>
       <!-- <a class="btn btn--solid">I need help on a project</a>
       <a class="btn btn--solid">I'm hiring for remote work</a> -->
     </div>

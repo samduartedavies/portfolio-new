@@ -13,7 +13,7 @@
         <a href="/contact">Contact</a>
       </li>
       <li>
-        <a target="_blank" href="/">My CV</a>
+        <a target="_blank" href="/common/SamDuarteDavies_CV.pfd">My CV</a>
       </li>
     </ul>
   </div>
