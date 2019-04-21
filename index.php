@@ -36,7 +36,7 @@
     <h2 class="animate--fadein-up" data-emergence="hidden">What I can do.</h2>
     <div class="container container--half-half">
       <div class="animate--fadein-left delay--05" data-emergence="hidden">
-        Placeholder for image
+        <img src="/common/images/ideas-to-reality.svg" class="img"/>
       </div>
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
         <h3>Turn ideas into reality.</h3>
@@ -50,8 +50,8 @@
         <p>My skillset primarily focuses on front-end web development; HTML5, PHP, CSS3/SCSS, Javascript (including javascript frameworks such as React) but also expands to the use of MySQL and server management. I am also proficient with Adobe Photoshop and Illustrator.<br/></p>
         <a class="btn btn--solid" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download my CV</a>
       </div>
-      <div class="animate--fadein-left delay--05" data-emergence="hidden">
-        Placeholder for image
+      <div class="text-center animate--fadein-left delay--05" data-emergence="hidden">
+        <img src="/common/images/html.svg" class="img"/>
       </div>
     </div>
   </section>
