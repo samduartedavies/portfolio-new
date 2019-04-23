@@ -36,7 +36,7 @@
     </div>
     <a class="section__next">&nbsp;</a>    
   </section>
-  <section class="section section--fullheight section--centered">
+  <section class="section text-center">
     <h2 class="animate--fadein-up" data-emergence="hidden">What I can do.</h2>
     <div class="container container--half-half">
       <div class="animate--fadein-left delay--05" data-emergence="hidden">
