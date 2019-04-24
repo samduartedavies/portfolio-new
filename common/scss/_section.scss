@@ -170,6 +170,9 @@
       animation: boat 35s linear infinite;
       @include breakpoint('phone') {
         background-size: contain;
+        width: 45px;
+        height: 90px;
+        bottom: -45px;
       }
     }
     & + section {

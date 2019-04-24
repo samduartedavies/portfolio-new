@@ -21,7 +21,7 @@
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
       <h3 class="animate--fadein-up delay--025" data-emergence="hidden">Me</h3>
       <p class="animate--fadein-up delay--05" data-emergence="hidden">Having worked as a Developer and Commercial Assistant for the past two (and a bit) years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry to allow myself to effectively manage and develop an assortment of web based applications.</p>
-      <p class="animate--fadein-up delay--075" data-emergence="hidden">My experience has given me the confidence to progress into a career of freelancing, offering my services as a front-end developer with the ability to self manage and even manage small teams.</p>
+      <p class="animate--fadein-up delay--075" data-emergence="hidden">My experience has given me the confidence to progress into a career of freelancing, offering my services as a front-end developer with the ability to self manage and even manage small teams.<br/><br/></p>
     </div>
     <a class="section__next">&nbsp;</a>
   </section>
