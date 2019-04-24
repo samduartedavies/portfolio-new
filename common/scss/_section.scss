@@ -8,6 +8,9 @@
     min-height: 270px;
     position: relative;
     text-align: center;
+    @include breakpoint('phone') {
+      min-height: 230px;
+    }
     h1,
     p {
       position: relative;
@@ -65,6 +68,12 @@
         }
       }
     }
+    & + .section--padded {
+      padding-top: 10vh;
+      @include breakpoint('phone') {
+        padding-top: 5vh;
+      }
+    }
   }
   &--fullheight {
     min-height: calc(100vh - 60px);
@@ -87,6 +96,9 @@
   }
   &--padded {
     padding: 15vh 0;
+    @include breakpoint('phone') {
+      padding: 9vh 0;
+    }
   }
   &__next {
     position: absolute;

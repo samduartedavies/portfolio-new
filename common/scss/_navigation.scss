@@ -41,7 +41,7 @@
       a {
         color: $primary;
         text-decoration: none;
-        padding: 0.1em 0;
+        padding: 2vh 0;
         display: block;
         position: relative;
         @include breakpoint('phone') {
@@ -100,6 +100,9 @@
     height: 25px;
     z-index: 5;
     right: 10px;
+    @include breakpoint('phone') {
+      top: 0;
+    }
     span {
       position: absolute;
       z-index: 5;

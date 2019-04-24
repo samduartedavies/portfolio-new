@@ -8,6 +8,9 @@
   }
   h2 {
     margin: 0 auto;
+    @include breakpoint('phone') {
+      margin-top: 0.25em;
+    }
     &:hover {
       color: $primary;
     }

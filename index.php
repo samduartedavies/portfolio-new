@@ -44,7 +44,7 @@
       </div>
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
         <h3>Turn ideas into reality.</h3>
-        <p>I take designs or ideas and produce pixel-perfect web applications, full of animations and life that most other developers don't seem to be offering. All applications that I work on undergo my own strict testing standards - ensuring that they are fully responsive and enhanced to work accross all devices and browsers.</p>
+        <p>I take designs or ideas and produce pixel-perfect web applications, full of animations and life that most other developers don't seem to be offering. All applications that I work on undergo my own strict testing standards - ensuring that they are fully responsive and optimised to work accross all devices and browsers.</p>
         <a class="btn btn--solid" href="/contact">Get in contact</a>
       </div>
     </div>
