@@ -33,6 +33,11 @@
       @include breakpoint('phone') {
         width: 100%;
       }
+      &.active {
+        a {
+          color: $text;
+        }
+      }
       a {
         color: $primary;
         text-decoration: none;
@@ -162,6 +167,9 @@
     font-weight: 100;
     span {
       font-weight: bold;
+    }
+    &:hover {
+      color: $text;
     }
   }
 }
