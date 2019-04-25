@@ -33,11 +33,6 @@
       @include breakpoint('phone') {
         width: 100%;
       }
-      &.active {
-        a {
-          color: $text;
-        }
-      }
       a {
         color: $primary;
         text-decoration: none;

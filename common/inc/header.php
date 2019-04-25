@@ -37,7 +37,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title><?php echo $title; ?></title>
+		<title>Sam Duarte-Davies - <?php echo $title; ?></title>
 		<meta name="description" content="<?php echo $description; ?>" />
 		<meta name="keywords" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">

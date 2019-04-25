@@ -1,6 +1,11 @@
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/common/php/config.php'; ?>
 
-<?php getHeader('Bellhouse Joseph - Lorem Ipsum', 'Lorm ipsum', ''); ?>
+<?php getHeader(
+    'contact me',
+    'I am currently available for freelance work! If you have a project you would like to get in contact with me about or simply just want to say hello - use the contact form below or email me at:
+contact@samduartedavies.com.',
+    ''
+); ?>
 
 <section class="section section--banner">
   <div class="container">

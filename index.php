@@ -1,8 +1,8 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/php/functions.php'; ?>
 
 <?php getHeader(
-    'Bellhouse Joseph2 - Lorem Ipsum',
-    'Lorm ipsum',
+    'a front-end developer',
+    'Having worked as a Developer and Commercial Assistant for the past two (and a bit) years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry to allow myself to effectively manage and develop an assortment of web based applications.',
     'page-home'
 ); ?>
   <section class="section section--banner section--centered section--fullheight">
