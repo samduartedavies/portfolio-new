@@ -1,7 +1,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/php/functions.php'; ?>
 
 <?php getHeader(
-    'a front-end developer',
+    'A front-end developer',
     'Having worked as a Developer and Commercial Assistant for the past two (and a bit) years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry to allow myself to effectively manage and develop an assortment of web based applications.',
     'page-home'
 ); ?>
@@ -33,6 +33,7 @@
       </div>
       <div class="hifive__left"><span></span></div>
       <div class="hifive__right"><span></span></div>
+      <div class="hifive__center"></div>
     </div>
     <a class="section__next">&nbsp;</a>    
   </section>

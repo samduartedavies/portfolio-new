@@ -1,7 +1,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/php/functions.php'; ?>
 
 <?php getHeader(
-    "projects I've worked on",
+    "Projects I've worked on",
     'Here you can take a look at some of the web development projects that I have worked on, with my role varying from project to project - including development, project management and copy-writing. Go ahead - take a peek!',
     'page-projects'
 ); ?>

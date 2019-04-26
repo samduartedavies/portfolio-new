@@ -16,6 +16,7 @@
     position: relative;
     display: inline-block;
   }
+  &__center,
   &__left span,
   &__right span {
     width: 100%;
@@ -38,6 +39,15 @@
     background-image: url('../images/hand-right-far.svg');
     background-position: right center;
   }
+  &__center {
+    display: none;
+    background-size: 50vh;
+    background-image: url('../images/hands-connect.svg');
+    background-position: center;
+    @include breakpoint('phone') {
+      background-size: 30vw;
+    }
+  }
   &__popup {
     width: 100%;
     margin: 0 auto;
@@ -49,11 +59,9 @@
   }
   &--connected {
     .hifive {
-      &__left {
+      &__center {
         animation: hifive-shake 0.5s;
-        span {
-          background-position: center;
-        }
+        display: block;
       }
       &__popup {
         display: block;

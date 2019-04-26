@@ -1,7 +1,7 @@
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/common/php/config.php'; ?>
 
 <?php getHeader(
-    'contact me',
+    'Contact me',
     'I am currently available for freelance work! If you have a project you would like to get in contact with me about or simply just want to say hello - use the contact form below or email me at:
 contact@samduartedavies.com.',
     ''
