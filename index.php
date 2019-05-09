@@ -52,7 +52,7 @@
       <div class="animate--fadein-right delay--05" data-emergence="hidden">
         <h3>Use the latest technologies</h3>
         <p>My skillset primarily focuses on front-end web development; HTML5, PHP, CSS3/SCSS, Javascript (including javascript frameworks such as React) but also expands to the use of MySQL and server management. I am also proficient with Adobe Photoshop and Illustrator.<br/></p>
-        <a class="btn btn--solid" href="assets/SamDuarteDavies_CV.pdf" target="_blank">Download my CV</a>
+        <a class="btn btn--solid" href="common/SamDuarteDavies_CV.pdf" target="_blank">Download my CV</a>
       </div>
       <div class="text-center animate--fadein-left delay--05" data-emergence="hidden">
         <img src="/common/images/html.svg" class="img"/>
