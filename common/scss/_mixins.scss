@@ -24,6 +24,10 @@ $font-size: 16;
   max-width: 1260px;
   width: 80%;
   margin: 0 auto;
+  @include breakpoint('4k') {
+    width: 90%;
+    max-width: 1920px;
+  }
   @include breakpoint('desktop') {
     width: 90%;
   }

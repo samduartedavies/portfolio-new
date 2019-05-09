@@ -27,7 +27,7 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
         <h3>Developer (freelance)</h3>
-        <p>Alchemy RX was a one-page static site that I implemented as a remote freelancer. The project was a great success - with praise from both the agency that provided the project as well as the client. Praise included mentions of the final product going above and beyond the expected outcome accompanied by my ongoing hasty communications and detailed time logs of development.</p>
+        <p>Alchemy RX was a one-page static site filled with complex animation and interactivity that I implemented as a remote freelancer. The project was a great success - with praise from both the agency that provided the project as well as the client. Praise included mentions of the final product going above and beyond the expected outcome accompanied by my ongoing hasty communications and detailed time logs of development.</p>
         <a class="btn btn--solid" href="https://www.alchemy-rx.com/" target="_blank">Visit Alchemy RX</a>
       </div>
     </div>

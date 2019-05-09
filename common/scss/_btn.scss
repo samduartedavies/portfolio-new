@@ -4,6 +4,8 @@
   color: $primary;
   position: relative;
   display: inline-block;
+  font-family: BrandonGrotesque;
+  letter-spacing: 0.5px;
   @include breakpoint('phone') {
     display: block;
     width: 100%;

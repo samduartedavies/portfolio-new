@@ -1,6 +1,8 @@
 .navigation {
   width: 100%;
   &__menu {
+    font-family: BrandonGrotesque;
+    font-weight: normal;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -165,8 +167,10 @@
     font-size: 21px;
     letter-spacing: 0.75px;
     font-weight: 100;
+    font-family: BrandonGrotesque;
+    font-weight: bold;
     span {
-      font-weight: bold;
+      color: $text;
     }
     &:hover {
       color: $text;

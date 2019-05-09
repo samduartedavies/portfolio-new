@@ -143,6 +143,9 @@
       background-position: 50%;
       background-size: contain;
       background-repeat: no-repeat;
+      @include breakpoint('4k') {
+        width: 1920px;
+      }
       @include breakpoint('desktop') {
         width: 600px;
         height: 470px;

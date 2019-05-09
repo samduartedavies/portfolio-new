@@ -4,12 +4,12 @@
     url('../fonts/brandon-grotesque-medium.woff') format('woff');
   font-weight: normal;
 }
-@font-face {
-  font-family: 'BrandonGrotesque';
-  src: url('../fonts/brandon-grotesque-thin.otf') format('otf'),
-    url('../fonts/brandon-grotesque-thin.woff') format('woff');
-  font-weight: 100;
-}
+// @font-face {
+//   font-family: 'BrandonGrotesque-Text';
+//   src: url('../fonts/brandon-grotesque-thin.otf') format('otf'),
+//     url('../fonts/brandon-grotesque-thin.woff') format('woff');
+//   font-weight: 100;
+// }
 @font-face {
   font-family: 'BrandonGrotesque';
   src: url('../fonts/brandon-grotesque-bold.otf') format('otf'),
@@ -24,20 +24,29 @@
 
 body {
   color: $primary;
+  font-family: calibri;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
   font-family: BrandonGrotesque;
   font-weight: normal;
 }
 
 h1 {
   font-size: 160px;
-  font-family: BrandonGrotesque;
   margin: 0;
-  font-weight: normal;
+  font-weight: bold;
   @include breakpoint('tablet') {
     font-size: 100px;
   }
   @include breakpoint('phone') {
-    font-size: 89px;
+    font-size: 88px;
+  }
+  @include breakpoint('4k') {
+    font-size: 300px;
   }
 }
 
@@ -45,7 +54,7 @@ p,
 input,
 textarea {
   color: $text;
-  font-family: BrandonGrotesque, arial, sans-serif;
+  font-family: calibri, arial, sans-serif;
   font-size: 21px;
   line-height: 1.35em;
   font-weight: 100;
