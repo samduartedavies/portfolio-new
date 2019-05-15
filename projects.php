@@ -22,11 +22,13 @@
   <section class="project project--alchemy section">
     <div class="container  container--narrow">
       <img class="img animate--fadein" data-emergence="hidden"
-      srcset="/common/images/projects/alchemy@0,33x.png 400w, 
-      /common/images/projects/alchemy@0,5x.png 600w, 
-      /common/images/projects/alchemy.png 1200w"
-      sizes="auto"
-      src="/common/images/projects/alchemy.png" alt="Alchemy RX Preview" />
+      src="/common/images/projects/alchemy-large.png"
+      srcset="
+        /common/images/projects/alchemy-small.png 400w,
+        /common/images/projects/alchemy.png 600w,
+        /common/images/projects/alchemy-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw"
+      alt="Alchemy RX Preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.alchemy-rx.com/" target="_blank">Alchemy RX</a></h2>
         <h3>Developer (freelance)</h3>
@@ -37,8 +39,14 @@
   </section>
   <section class="project project--velusso section">
     <div class="container  container--narrow animate--fadein-up" data-emergence="hidden">
-      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/velusso.png" alt="Velusso Preview" />
+      <img class="img animate--fadein" data-emergence="hidden"
+      src="/common/images/projects/velusso.png"
+      srcset="
+      /common/images/projects/velusso-small.png 400w,
+      /common/images/projects/velusso.png 600w,
+      /common/images/projects/velusso-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw" 
+      alt="Velusso Preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.velusso.co.uk/" target="_blank">Velusso</a></h2>
         <h3>Project Manager / Developer</h3>
@@ -50,7 +58,13 @@
   <section class="project project--allweather section">
     <div class="container  container--narrow">
       <img class="img animate--fadein" data-emergence="hidden"" srcset="" 
-      src="/common/images/projects/allweather.png" alt="Allweather preview" />
+      src="/common/images/projects/allweather.png"
+      srcset="
+      /common/images/projects/allweather-small.png 400w,
+      /common/images/projects/allweather.png 600w,
+      /common/images/projects/allweather-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw"
+      alt="Allweather preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.theallweathergroup.co.uk/" target="_blank">The Allweather Group</a></h2>
         <h3>Developer</h3>
@@ -61,8 +75,14 @@
   </section>
   <section class="project project--nproxx section">
     <div class="container  container--narrow">
-      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/nproxx.png" alt="NPROXX preview" />
+      <img class="img animate--fadein" data-emergence="hidden" 
+      src="/common/images/projects/nproxx.png"
+      srcset="
+      /common/images/projects/nproxx-small.png 400w,
+      /common/images/projects/nproxx.png 600w,
+      /common/images/projects/nproxx-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw"
+      alt="NPROXX preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">NPROXX</a></h2>
         <h3>Developer</h3>
@@ -74,7 +94,13 @@
   <section class="project project--pronexos section">
     <div class="container  container--narrow">
       <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/pronexos.png" alt="Pronexos preview" />
+      src="/common/images/projects/pronexos.png"
+      srcset="
+      /common/images/projects/pronexos-small.png 400w,
+      /common/images/projects/pronexos.png 600w,
+      /common/images/projects/pronexos-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw"
+      alt="Pronexos preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.pronexos.com/" target="_blank">Pronexos</a></h2>
         <h3>Developer</h3>
@@ -85,10 +111,16 @@
   </section>
   <section class="project project--hayward section">
     <div class="container container--narrow">
-      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/hag.png" alt="Hayward and Green preview" />
+      <img class="img animate--fadein" data-emergence="hidden"
+      src="/common/images/projects/hag.png"
+      srcset="
+      /common/images/projects/hag-small.png 400w,
+      /common/images/projects/hag.png 600w,
+      /common/images/projects/hag-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw"
+      alt="Hayward and Green preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
-        <h2><a href="https://www.nproxx.com/" target="_blank">Hayward &amp; Green</a></h2>
+        <h2><a href="https://www.haywardandgreen.com/" target="_blank">Hayward &amp; Green</a></h2>
         <h3>Developer</h3>
         <p>Hayward &amp; Green are a commercial aircraft parts supply company who needed their previous, out-dated site revamped to compete with their competitors. They needed a slick, mobile-responsive website that users could search through their extremely large aircraft parts inventory and enquire about any available parts.</p>
         <a class="btn btn--solid" href="https://www.haywardandgreen.com/" target="_blank">Visit Hayward &amp; Green</a>
@@ -98,7 +130,13 @@
   <section class="project project--tss section">
     <div class="container container--narrow">
       <img class="img animate--fadein" data-emergence="hidden" srcset="" 
-      src="/common/images/projects/tss.png" alt="TSS Facilities preview" />
+      src="/common/images/projects/tss.png"
+      srcset="
+      /common/images/projects/tss-small.png 400w,
+      /common/images/projects/tss.png 600w,
+      /common/images/projects/tss-large.png 1200w" 
+      sizes="(min-width: 640px) 600px, 100vw"
+      alt="TSS Facilities preview" />
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://tssfacilities.co.uk/" target="_blank">TSS Faciities</a></h2>
         <h3>Developer / Copy Writer</h3>
