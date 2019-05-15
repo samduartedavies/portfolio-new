@@ -66,6 +66,25 @@
       color: $white;
     }
   }
+  &--pronexos {
+    background: #3b4a51;
+    h2,
+    h3 {
+      color: #ee9d26;
+    }
+    p {
+      color: $white;
+    }
+    .btn {
+      background-color: #ee9d26;
+    }
+  }
+  .btn--solid {
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
   &--nproxx {
     h2,
     h3 {
@@ -76,7 +95,6 @@
     }
   }
   .btn--solid {
-    margin-top: 1em;
     &:hover {
       background-color: $primary;
       color: $white;

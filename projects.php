@@ -12,7 +12,10 @@
   </section>
   <section class="section section--centered section--padded">
     <div class="container container--narrow">
-      <p class="animate--fadein-up" data-emergence="hidden">Here you can take a look at some of the web development projects that I have worked on, with my role varying from project to project - including development, project management and copy-writing. Go ahead - take a peek!</p>
+      <p class="animate--fadein-up" data-emergence="hidden">
+        Here you can take a look at some of the web development projects that I have worked on, with my role varying from project to project - including development, project management and copy-writing. Go ahead - take a peek!<br/><br/>
+        <i>Note: I have worked on numerous React.js and SharePoint websites - however, due to their intrasite nature and me lacking permission to display them; I have not included them in my projects list.</i>
+      </p>
       <a class="section__next">&nbsp;</a>    
     </div>
   </section>
@@ -63,8 +66,20 @@
       <div class="animate--fadein-up delay--025" data-emergence="hidden">
         <h2><a href="https://www.nproxx.com/" target="_blank">NPROXX</a></h2>
         <h3>Developer</h3>
-        <p>NPROXX is a German hydrogen storage company with multi-national clients; therefore, their website needed to be accessible to all their potential clients. A multi-lingual website was developed with every page having numerous versions of itself corresponding to the relevant language domain. SEO also needed to be refined to correctly display each language on relevant search criteria.</p>
+        <p>NPROXX is a German carbon fibre manufacturer with multi-national clients; therefore, their website needed to be accessible to all their potential clients. A multi-lingual website was developed with every page having numerous versions of itself corresponding to the relevant language domain. SEO also needed to be refined to correctly display each language on relevant search criteria.</p>
         <a class="btn btn--solid" href="https://www.nproxx.com/" target="_blank">Visit NPROXX</a>
+      </div>
+    </div>
+  </section>
+  <section class="project project--pronexos section">
+    <div class="container  container--narrow">
+      <img class="img animate--fadein" data-emergence="hidden" srcset="" 
+      src="/common/images/projects/pronexos.png" alt="Pronexos preview" />
+      <div class="animate--fadein-up delay--025" data-emergence="hidden">
+        <h2><a href="https://www.pronexos.com/" target="_blank">Pronexos</a></h2>
+        <h3>Developer</h3>
+        <p>Pronexos followed very similar criteria to NPROXX; using a CMS with multi-lingual functionality. Pronexos is a German company producing hydrogen storage equipment and needed the information and detail of their products to be understandable on a global scale. The site, as always, was made fully device compatible and was SEO enhanced so that the multiple language domains and versions of pages could be directed to the correct user.</p>
+        <a class="btn btn--solid" href="https://www.nproxx.com/" target="_blank">Visit Pronexos</a>
       </div>
     </div>
   </section>
