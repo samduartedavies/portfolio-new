@@ -8,6 +8,7 @@
   }
   h2 {
     margin: 0 auto;
+    font-weight: bold;
     @include breakpoint('phone') {
       margin-top: 0.25em;
     }
@@ -18,7 +19,7 @@
   h3 {
     margin-top: 0;
     line-height: 1em;
-    font-family: BrandonGrotesque-Thin;
+    font-weight: 300;
   }
   &--project {
     p {

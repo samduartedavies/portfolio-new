@@ -2,7 +2,7 @@
 
 <?php getHeader(
     'A front-end developer',
-    'Having worked as a Developer and Commercial Assistant for the past two (and a bit) years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry to allow myself to effectively manage and develop an assortment of web based applications.',
+    'Having worked as a Developer and Commercial Assistant for the past two and a half years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry, to allow myself to effectively manage and develop an assortment of web-based applications. With years of experience and expertise in development and managing small development teams; I can now offer my services as a freelancer - specialising in front-end development and development project management.',
     'page-home'
 ); ?>
   <section class="section section--banner section--centered section--fullheight">
@@ -20,7 +20,7 @@
       <img class="img--circle animate--fadein" data-emergence="hidden" srcset="" 
       src="/common/images/my-beautiful-face.jpg" alt="Sam Duarte-Davies' beautiful face" />
       <h3 class="animate--fadein-up delay--025" data-emergence="hidden">Me</h3>
-      <p class="animate--fadein-up delay--05" data-emergence="hidden">Having worked as a Developer and Commercial Assistant for the past two and a half years at an      agency in the United Kingdom - I have enhanced and refined my skillset in the industry, to allow myself to effectively manage and develop an assortment of web-based applications. With years of experience in development and managing small development teams; I can now offer my services as a freelancer - specialising in front-end development and development project management.<br/><br/></p>
+      <p class="animate--fadein-up delay--05" data-emergence="hidden">Having worked as a Developer and Commercial Assistant for the past two and a half years at an agency in the United Kingdom - I have enhanced and refined my skillset in the industry, to allow myself to effectively manage and develop an assortment of web-based applications. With years of experience and expertise in development and managing small development teams; I can now offer my services as a freelancer - specialising in front-end development and development project management.<br/><br/></p>
     </div>
     <a class="section__next">&nbsp;</a>
   </section>

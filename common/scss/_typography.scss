@@ -4,11 +4,11 @@
     url('../fonts/brandon-grotesque-medium.woff') format('woff');
   font-weight: normal;
 }
-@font-face {
-  font-family: 'BrandonGrotesque-Thin';
-  src: url('../fonts/brandon-grotesque-thin.otf') format('otf'),
-    url('../fonts/brandon-grotesque-thin.woff') format('woff');
-}
+// @font-face {
+//   font-family: 'BrandonGrotesque-Thin';
+//   src: url('../fonts/brandon-grotesque-thin.otf') format('otf'),
+//     url('../fonts/brandon-grotesque-thin.woff') format('woff');
+// }
 @font-face {
   font-family: 'BrandonGrotesque';
   src: url('../fonts/brandon-grotesque-bold.otf') format('otf'),
@@ -67,7 +67,6 @@ textarea {
   }
   @include breakpoint('phone') {
     font-size: 18px;
-    line-height: 1.2em;
   }
 }
 
